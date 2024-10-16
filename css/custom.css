@@ -1,0 +1,236 @@
+/* Début de page */
+
+/* Styles pour les liens de la barre de navigation principale au survol */
+.top-bar ul.menu li a:hover {
+  color: #0f527f;
+}
+
+/* Styles pour la section callout */
+
+.callout{
+  background-image: url("../data/img/fondaccueil.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.callout a.button {
+  background-color: #333;
+  color: white;
+}
+
+.callout a.button:hover {
+  background-color: white;
+  color: #333;
+}
+
+/* Styles pour le pied de page */
+footer {
+  background-color: #333; /* Couleur de fond du pied de page */
+  color: white; /* Couleur du texte dans le pied de page */
+  text-align: center;
+  padding: 1em 0;
+}
+
+/* Styles pour le conteneur principal */
+main {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+/* Styles pour les boutons de la barre de navigation */
+.menu a.button {
+  background-color: #333;
+  color: white;
+}
+
+.menu a.button:hover {
+  background-color: white;
+  color: #333;
+}
+
+/* Styles pour la section "À Propos de Moi" */
+.about-section {
+  background-color: #f7f7f7;
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-section article {
+  margin-bottom: 20px;
+}
+
+.about-section h3 {
+  color: #07294d;
+  position: relative;
+  display: inline-block;
+}
+
+/* Styles pour le CV */
+
+/* Image de fond pour la section CV */
+.fondcv {
+  background-image: url("../data/img/fondcv.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Styles pour le conteneur CV */
+.medium-6.large-auto {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Styles pour les titres de sections du CV */
+.medium-6.large-auto h3 {
+  color: #333;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+/* Styles pour les paragraphes du CV */
+.medium-6.large-auto p {
+  margin-bottom: 10px;
+}
+
+.medium-6.large-auto.columns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Styles pour les sections du CV (Formation, Compétences techniques, etc.) */
+.medium-12.columns h4 {
+  color: #007acc;
+  margin-bottom: 20px;
+}
+
+.medium-12.columns ul li:before {
+  content: '\2022';
+  color: #007acc;
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.medium-12.columns {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.medium-12.columns ul {
+  list-style-type: none;
+  padding: 0;
+  border: 2px solid #007acc;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.medium-12.columns li {
+  margin-bottom: 10px;
+}
+
+/* Image de fond pour la section huawei */
+.fondsae {
+  background-image: url(../huawei/huawei1/data/img/fondsae.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Styles pour le contenu principal */
+.entete.large.primary {
+  background-color: #8a7bc6;
+  color: #fff;
+}
+
+.blog-post {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h1 {
+  color: #333;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+}
+
+.blog-post h2 {
+  color: #000000;
+  margin-top: 20px;
+}
+
+.blog-post p {
+  color: #555;
+}
+
+.blog-post ul {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-post ul li {
+  margin-bottom: 10px;
+}
+
+.blog-post img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image de fond pour la section "Zoom" */
+.fondzoom {
+  background-image: url("../data/img/fondzoom.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Réduire la taille des images de la classe "orbit-image" */
+.orbit-image {
+  max-width: 100%; /* La largeur maximale est de 100% de son conteneur parent */
+  max-height: 400px; /* La hauteur maximale est de 300 pixels */
+  height: auto;    /* La hauteur s'ajuste automatiquement pour maintenir les proportions d'origine */
+}
+
+/* Styles pour l'en-tête centrée */
+.text-center h1 {
+  color: #000000;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* Styles pour les paragraphes centrés */
+.text-center p {
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Styles pour les listes centrées */
+.text-center {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Styles pour les images centrées */
+.text-center img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
